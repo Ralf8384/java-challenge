@@ -7,7 +7,7 @@
 - create test code
 - Using synchronized to protect the thread.
 
-※There can be many enhancement which haven't been done.(I haven't more time to enhance the program)
+※There can also have some other enhancements which I haven't done yet.
 For example,It can create the Interceptor.Before running the Controller,we can do validation check and put the login information to the cache in the preHandler method.
 
 ### My experience in Java
