@@ -1,0 +1,197 @@
+2023-10-15 22:40:27.118 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [jp.co.axa.apidemo.ApiDemoApplicationTests], using SpringBootContextLoader
+2023-10-15 22:40:27.148 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [jp.co.axa.apidemo.ApiDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-15 22:40:27.149 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [jp.co.axa.apidemo.ApiDemoApplicationTests]: ApiDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-15 22:40:27.355 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration jp.co.axa.apidemo.ApiDemoApplication for test class jp.co.axa.apidemo.ApiDemoApplicationTests
+2023-10-15 22:40:27.633 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2023-10-15 22:40:27.699 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1fb700ee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f67eb2a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4a668b6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f683daf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78ffe6dc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@8317c52, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@76f2bbc1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68e965f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f27a732, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c779568, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@f381794, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2cdd0d4b]
+2023-10-15 22:40:28.112 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.16.Final
+2023-10-15 22:40:31.640 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-10-15 22:40:31.763 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103ms. Found 1 repository interfaces.
+2023-10-15 22:40:32.588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc7eab9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-15 22:40:33.056 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-15 22:40:33.334 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-15 22:40:33.475 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-10-15 22:40:33.593 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2023-10-15 22:40:33.596 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 22:40:33.861 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-10-15 22:40:34.360 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-15 22:40:35.232 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3bd08435'
+2023-10-15 22:40:35.236 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:40:36.398 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-15 22:40:36.974 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-15 22:40:37.565 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@299a43d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f60824e, org.springframework.security.web.header.HeaderWriterFilter@7079f8f0, org.springframework.security.web.authentication.logout.LogoutFilter@61c4cebd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@523abba9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c0e4262, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ccd000e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29c25bbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@403f7aa2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fa5c8cf, org.springframework.security.web.session.SessionManagementFilter@7cdc4070, org.springframework.security.web.access.ExceptionTranslationFilter@1d585fb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e85e3f1]
+2023-10-15 22:40:37.755 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-10-15 22:40:38.866 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:40:39.665 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-10-15 22:40:39.703 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-10-15 22:40:39.769 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-10-15 22:40:40.572 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-15 22:40:40.832 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:40:40.835 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:40:40.836 [Thread-3] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-15 22:40:40.841 [Thread-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+2023-10-15 22:40:40.843 [Thread-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - データベースはすでに閉じられています (VM終了時の自動データベースクローズを無効にするためには、db URLに ";DB_CLOSE_ON_EXIT=FALSE" を追加してください)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2023-10-15 22:40:40.844 [Thread-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+2023-10-15 22:40:40.845 [Thread-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - データベースはすでに閉じられています (VM終了時の自動データベースクローズを無効にするためには、db URLに ";DB_CLOSE_ON_EXIT=FALSE" を追加してください)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2023-10-15 22:40:40.845 [Thread-3] INFO  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2023-10-15 22:40:40.846 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-15 22:40:40.861 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-15 22:44:20.961 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [jp.co.axa.apidemo.ApiDemoApplicationTests], using SpringBootContextLoader
+2023-10-15 22:44:20.970 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [jp.co.axa.apidemo.ApiDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-15 22:44:20.971 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [jp.co.axa.apidemo.ApiDemoApplicationTests]: ApiDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-15 22:44:21.132 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration jp.co.axa.apidemo.ApiDemoApplication for test class jp.co.axa.apidemo.ApiDemoApplicationTests
+2023-10-15 22:44:21.328 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2023-10-15 22:44:21.415 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4a668b6e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f683daf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78ffe6dc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8317c52, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76f2bbc1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68e965f5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f27a732, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c779568, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f381794, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2cdd0d4b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7e9131d5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2e1d27ba]
+2023-10-15 22:44:21.753 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.16.Final
+2023-10-15 22:44:24.359 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-10-15 22:44:24.464 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces.
+2023-10-15 22:44:25.108 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12d57bc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-15 22:44:25.499 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-15 22:44:25.798 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-15 22:44:25.943 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-10-15 22:44:26.041 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2023-10-15 22:44:26.043 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 22:44:26.235 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-10-15 22:44:26.608 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-15 22:44:27.518 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3bd08435'
+2023-10-15 22:44:27.520 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:44:28.516 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-15 22:44:29.098 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-15 22:44:29.571 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ccd000e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1218e12, org.springframework.security.web.header.HeaderWriterFilter@121cf6f4, org.springframework.security.web.authentication.logout.LogoutFilter@655909e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e090aaa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27dfd12b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5fa5c8cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30704f85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@545604a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d7055be, org.springframework.security.web.session.SessionManagementFilter@553fbe94, org.springframework.security.web.access.ExceptionTranslationFilter@1884e671, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@195498aa]
+2023-10-15 22:44:29.642 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-10-15 22:44:30.412 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:44:31.112 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-10-15 22:44:31.156 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-10-15 22:44:31.211 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-10-15 22:44:31.788 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-15 22:44:32.042 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:44:32.050 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:44:32.050 [Thread-2] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-15 22:44:32.066 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-15 22:44:32.081 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-15 22:45:43.405 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [jp.co.axa.apidemo.ApiDemoApplicationTests], using SpringBootContextLoader
+2023-10-15 22:45:43.417 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [jp.co.axa.apidemo.ApiDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-15 22:45:43.419 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [jp.co.axa.apidemo.ApiDemoApplicationTests]: ApiDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-15 22:45:43.602 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration jp.co.axa.apidemo.ApiDemoApplication for test class jp.co.axa.apidemo.ApiDemoApplicationTests
+2023-10-15 22:45:43.744 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2023-10-15 22:45:43.773 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1329eff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6497b078, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@41c2284a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@53aad5d5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@46fa7c39, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1fb700ee, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4f67eb2a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a668b6e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5f683daf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@78ffe6dc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8317c52, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@76f2bbc1]
+2023-10-15 22:45:46.437 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-10-15 22:45:46.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 1 repository interfaces.
+2023-10-15 22:45:47.401 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$faa12f9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-15 22:45:47.820 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-15 22:45:48.163 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-15 22:45:48.312 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-10-15 22:45:48.476 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2023-10-15 22:45:48.478 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 22:45:48.816 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-10-15 22:45:49.194 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-15 22:45:50.039 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@365cef67'
+2023-10-15 22:45:50.043 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:45:51.073 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-15 22:45:51.533 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-15 22:45:52.019 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b360972, org.springframework.security.web.context.SecurityContextPersistenceFilter@e886caf, org.springframework.security.web.header.HeaderWriterFilter@3fef1e6b, org.springframework.security.web.authentication.logout.LogoutFilter@29c25bbc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35536760, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7cdc4070, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@793d09e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1884e671, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d949bc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68821f6, org.springframework.security.web.session.SessionManagementFilter@11c3d22f, org.springframework.security.web.access.ExceptionTranslationFilter@717a8a76, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f1d1463]
+2023-10-15 22:45:52.113 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-10-15 22:45:53.054 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:45:53.896 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-10-15 22:45:53.945 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-10-15 22:45:54.038 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-10-15 22:45:54.754 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-15 22:45:55.003 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:45:55.006 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:45:55.007 [Thread-2] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-15 22:45:55.019 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-15 22:45:55.025 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-10-15 22:49:21.262 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-10-15 22:49:21.342 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces.
+2023-10-15 22:49:21.751 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0960b02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-15 22:49:22.153 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-15 22:49:22.174 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-15 22:49:22.188 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-15 22:49:22.188 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2023-10-15 22:49:22.320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-15 22:49:22.320 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2086 ms
+2023-10-15 22:49:22.584 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-15 22:49:22.815 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-15 22:49:22.885 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-10-15 22:49:22.959 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2023-10-15 22:49:22.960 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 22:49:23.125 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-10-15 22:49:23.280 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-15 22:49:23.974 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e5a8718'
+2023-10-15 22:49:23.977 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:49:24.475 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-15 22:49:24.678 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-15 22:49:24.984 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4db6348b, org.springframework.security.web.context.SecurityContextPersistenceFilter@579f3c8e, org.springframework.security.web.header.HeaderWriterFilter@6a902015, org.springframework.security.web.authentication.logout.LogoutFilter@351d93bd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4ec0229c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@59f76e56, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7742a276, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e2824b1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bd3ca3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f48fa72, org.springframework.security.web.session.SessionManagementFilter@521a506c, org.springframework.security.web.access.ExceptionTranslationFilter@669c2b07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79b8ecb]
+2023-10-15 22:49:25.028 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-10-15 22:49:25.365 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:49:25.571 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-10-15 22:49:25.602 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-10-15 22:49:25.652 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-10-15 22:49:25.863 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-10-15 22:49:25.886 [main] ERROR o.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at jp.co.axa.apidemo.ApiDemoApplication.main(ApiDemoApplication.java:12)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1103)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1189)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2023-10-15 22:49:25.892 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-15 22:49:25.893 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-10-15 22:49:25.899 [main] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2023-10-15 22:49:25.899 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-15 22:49:25.900 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-15 22:49:25.903 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-15 22:49:25.905 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2023-10-15 22:49:25.910 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-15 22:49:25.912 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-15 22:49:25.912 [main] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-15 22:49:25.921 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-15 22:49:25.929 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
